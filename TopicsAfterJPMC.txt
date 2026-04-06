@@ -1,0 +1,551 @@
+Java Fundamentals
+Object-Oriented Concepts (questions)
+Multithreading, concurrency, and thread basics (questions)
+Date type conversion and fundamentals (questions)
+Garbage Collection (questions)
+Java Collections Framework (questions)
+Array (questions)
+String (questions)
+GOF Design Patterns (questions)
+Abstract class and interface (questions)
+Java basics like equal and hashcode (questions)
+Generics and Enum (questions)
+Data structure and algorithm in Java (questions)
+Regular expressions
+JVM internals (questions)
+Java Best Practices
+JDBC (questions)
+Date, Time, and Calendar (questions)
+XML Processing in Java (questions)
+JUnit
+Programming questions (questions)
+Common Networking protocols
+Java IO and NIO (questions)
+
+=============================
+Concepts from core Java:
+
+OOPS concepts (Data Abstraction, Encapsulation, Inheritance, Polymorphism)
+Basic Java constructs like loops and data types
+String handling
+Collection framework
+Exception handling
+Generics
+Serialisation & De-serialisation
+Synchronisation
+Multithreading
+Concurrent collection
+Advanced Java:
+
+JDBC (Java Database Connectivity)
+
+Popular Frameworks:
+
+Spring (MVC, Core, JDBC, ORM, AOP)
+Hibernate ORM framework
+Web Services (SOAP & REST)
+Other:
+
+Design patterns and design questions related to your projects.
+design by contract concept
+
+
+Quick Sort.
+Bubble Sort.
+Merge Sort.
+Insertion Sort.
+Selection Sort.
+Heap Sort.
+Radix Sort.
+Bucket Sort.
+
+Sum of array elements without any loop
+difference b/w loop and recursion.
+
+Exception with overriden methods(Super/Sub): https://www.geeksforgeeks.org/exception-handling-with-method-overriding-in-java/
+LSP: https://stackoverflow.com/questions/56860/what-is-an-example-of-the-liskov-substitution-principle
+Object Serialization with Inheritance in Java: https://www.geeksforgeeks.org/object-serialization-inheritance-java/ 
+Method hiding: https://www.youtube.com/watch?v=MM50bSNA2uY	
+Comparable vs Comparator
+
+Design patterns: https://www.javatpoint.com/design-patterns-in-java, see all design patterns here and search one by one on youtube
+
+Creational: How objects will be created.....
+	Factory/Virtual Constructor: Hiding the implementational/creational logic from client Creating a factory with creates object.
+	Singletone
+	Prototype
+	Builder
+	AbstractFactory....yet to
+Structural:
+	Proxy - 'representing’ or ‘in place of’ or ‘on behalf of’ College or Office Internet is best example as it does few additional checks 1st.
+	Flyweight - Controll of memory object, Intrinsic and Extrinsic 
+	Adapter: 
+	Bridge: Separating Abstaction layer from Implementation layer(both are independent)
+	
+	
+Behavioural: How object intracts/communicates with each other and still loosely coupled.
+	Iterator: Iterate over the collection without knowing underlying data. for Example: Iterating over List, Set, Map....Iterator itr = list.iterate();
+	Observer: In this an Object called Subject maintain a list of dependents call Observers and notify them automatically when any change in the state 
+				of Subjecet by calling 	their 	methods, Basically Subject sends a notification to its dependent when any change/request comes to it			
+				Example: Kafka, Dynamo stream....etc
+	...........few pending items
+
+SOLID Desing Principles:
+	Single Responsibility: Every class should have single responcibility
+	Open & Close: According to new requirement the module should be Open for extension but close for Close for Modificatoin
+					Every class should be Open for extension but Close for Modification 
+	Leskov's Substitution Principle: It applies to inheritance in such away that Drived/Sub class can be substitutable with its Base/Parent class without any issue.
+	Interface Segregation Principle: We should not force client/class to implementat all the method if they don't want to use it instead larger interfaces should be splitted into 
+										smaller onces. This is similar to Single Responsibility Principle
+	Dependency Inversion Principle: We must use abstraction(abstract class or interface) instead of concrete implementation, High level module should not be dependent on low 
+									level module but both should dependent on on Abstraction.
+									
+																	
+Serialization: https://www.geeksforgeeks.org/object-serialization-inheritance-java/
+
+Hashcode and Equals contract with HashMap:	https://www.youtube.com/watch?v=CpVALR9HeTE	
+	
+Garbage Collectors and Implementations: SerialGC: +XX:-UserSerialGC
+										ParallelGC: +XX:-UserParallelGC
+										CMSGC: +XX:-UserCMSGC (Concurrenct Mark and Sweep)
+										G1GC: +XX:-G1GC
+										https://www.geeksforgeeks.org/types-of-jvm-garbage-collectors-in-java-with-implementation-details/
+Classloader and implementats: 	Its Component of JVM
+								Bootstrap --> Extension --> System/Application
+								Order of Execution: System/Application --> Extension --> Bootstrap
+								and if not found, will throw ClassNotFound
+								https://www.youtube.com/watch?v=J_vAwYpRbhs
+								Need to read more and more.......
+								Class loader deligation rule
+								class loader visibility 
+
+Java8 memory model: yet to be:	Object will be stored in Heap, method and local variable in Stack and Static variables will be stored into MetaSpace
+								https://medium.com/platform-engineer/understanding-java-memory-model-1d0863f6d973, 
+								https://www.youtube.com/watch?v=4yKxJjYXZ0A
+								Need to read more and more.......
+								
+Immutable Object with Mutable: https://codepumpkin.com/immutable-class-with-mutable-member-fields-in-java/
+
+Encapsulation:-- Information hiding.
+Abstraction:-- Implementation hiding.	
+					
+Shallow vs Deep copy: https://dzone.com/articles/java-copy-shallow-vs-deep-in-which-you-will-swim
+
+
+Life Cycle of Maven: 	
+
+					
+	
+
+
+Spring
+Spring Boot
+WebFlux
+Reactive Programming
+New Spring Features
+Hibernate
+Dagger
+
+================================
+System Design
+Algorithms
+DS
+Sorting 
+Searching
+Different DBMS(Prons and Cons)
+SQL
+
+Web socket spring
+Webflucx
+Reactive programming 
+
+Lombok, ObjectMapper, 
+AWS, Lambda, DynamoDB, API Gateway, Cloudformation, Cloudwatch, EC2......Certification
+GIT, Jenkins
+
+https://www.netjstech.com/2017/09/java-stream-api-interview-questions.html
+https://javaconceptoftheday.com/how-to-count-occurrences-of-each-character-in-string-in-java/: String codidng
+https://mkyong.com/java8/java-8-collectors-groupingby-and-mapping-example/	Coding questions
+
+All Interview questions: 	https://www.interviewbit.com/spring-boot-interview-questions/
+
+Spring Boot
+Microservices/Web services
+Spring
+Java
+SQL
+Hibernate
+Kafka: Reach to Antony after getting some basic idea.
+
+Java: OPPS, Collection, Memory Model, Multithreading, Misc.
+Multithreading: Semaphore, Countdown latch, Cyclic Barier, Executer framework, Callable, Future.
+Collection: Tricky questions, Queue(Priority/Blocking Queue), ArrayList and LinkedList internal implementation
+Java8: New features and Advantages: https://javarevisited.blogspot.com/2021/05/java-8-stream-lambda-expression-d.html#axzz7FfVDJ1pQ
+									https://www.javaprogramto.com/2020/03/java-8-interview-questions.html
+IdentityHashMap, WeakHashMap, ConcurrentHashMap: 
+Stream programmings : https://www.interviewgrid.com/interview_questions/java/java_streams
+
+DateTimeFormatter.ofPattern("format").format(LocalDateTime.now())
+
+constructor vs setter injection with example
+
+Order of implement and extend
+
+Need to add python and glue job in CV and interview as well
+
+Spring and Hibernate
+
+Programming Questions: https://edabit.com/challenges/java
+
+Coding:n https://www.w3resource.com/java-exercises/
+
+
+Solve tricky problem with the help of mathematics
+
+change port at run time : java -Dserver.port=3456 jar JAR-NAME.jar
+
+https://www.youtube.com/watch?v=a476xX0eOzY
+
+Stream methods with examples: https://www.codejava.net/java-core/collections/java-8-stream-terminal-operations-examples
+
+Sprit transaction properties: 	https://www.byteslounge.com/tutorials/spring-transaction-isolation-tutorial
+								https://www.javainuse.com/spring/boot-transaction-isolation
+								https://www.netjstech.com/2018/08/spring-transaction-attributes-propagation-isolation-settings.html
+
+exception handling in stream()
+ENUMS in deep
+of vs ofNullable in Optional 
+Store data in Optional
+
+Multithreading:	https://www.youtube.com/watch?v=WH5UvQJizH0&list=PLhfHPmPYPPRk6yMrcbfafFGSbE2EPK_A6
+	Lock and ReentrantLock: https://www.youtube.com/watch?v=ahBC69_iyk4
+	Completable Tutorial: https://www.youtube.com/watch?v=ImtZgX1nmr8
+	Completable Practical: https://www.youtube.com/watch?v=3rJBLFA95Io
+	Dead Lock
+	Starvation
+	Race condition
+	ReentrantLock
+	Semephore
+	CounDownLatch
+	Cyclic Barrier
+	CompletableFuture : @Asynch, 
+
+https://www.javatpoint.com/program-to-find-all-permutations-of-a-string
+https://www.google.com/search?q=find+duplicate+in+array&oq=find+duplicate+in+array+&aqs=chrome..69i57j0i512l9.4718j0j7&sourceid=chrome&ie=UTF-8
+https://www.geeksforgeeks.org/print-all-permutations-of-a-string-in-java/
+https://www.techiedelight.com/generate-permutations-string-java-recursive-iterative/
+https://www.javatpoint.com/how-to-print-pattern-in-java
+https://javaconceptoftheday.com/java-array-interview-programs/
+
+
+Microsoft
+Amzaon
+Google
+Adobe
+Oracle
+DELL
+Intell
+UBER
+OLA
+Qualcomm
+Mastercard
+Walmart
+
+
+ADP
+Verizon
+Altimatics
+High Radius
+AutoRabit
+Paytm
+
+
+Topipc for tomorrow:
+Java Executor Framework
+Design patterns
+Microservices
+Spring
+
+
+furlough 
+
+5 Jan 2 to 3pm			Persistent-BajaFin: 
+5 Jan at 5pm 			HR Discussion Persistent - Done.
+6 Jan 6 to 6:30pm		ATMECS Product Owner discussion---Done
+
+
+5 Jan 3 to 4pm			FissionLab---Done 1st round, waiting for response
+
+6 Jan 4 to 4:30pm		Altimatics--Done 1st round, 
+
+7 Jan 4-5pm 			Mphasis -- Done, recieved offer of 20LPA 
+
+
+8 Jan 1-2pm 			Capgemini - Didn't heppen
+8 Jan 2:45 to 3:15pm 	CGI - Done, going for 2nd round
+
+10 Jan 3.30 to 4pm 		Technical Interview with Quest --- Done 1st round successfully 
+
+11 Jan 2 to 3pm 		Fission Lab -- Farrah -- Done successfully - she is working on Managerial round 
+11 Jan 3 to 4pm 		Technical Trueminds - Vaishnavi, Vishali - 1st round is completed successfully, asking docs then will have Managerial round.
+
+12 Jan 12 to 1pm 		CGI 2nd round - Vasundhra 8143245820: cyber10salman50, Done successfully with Vajirmani -- working on approval with hiring managers...
+12 Jan 2 to 3pm 		ADP - 9347651053---Done but not successfully 
+12 Jan 4 to 4:30pm 		Iris -- Zeenat : Done successfully, lets wait for response. Harshit: 7838381812
+
+13 Jan 1 to 2pm 		Fission Lab -- Farrah -- Managerial round -- Done successfully with Parvas Padhy
+
+13 Jan 4:30 to 5pm 		Technical Trueminds - Vaishnavi, Vishali --- Done successfully, Vashali is working on offer
+13 Jan 5 to 6pm 		Technical/Managerial round with Quest- Done successfully, Sai Ratna is working on offer: 7981115434 7093814977 -- Got the offer of 19LPA
+
+
+
+Sapient test clear: Preethi - 8639454742
+
+15 Jan 12 to 1pm : 		Application Assessment: Space well - Karuna 9381124194
+15 Jan 2 to 4pm : 		with Sapient another round J R: process going on..........will be getting mail for docs submition soon 
+15 Jan 5 to 6pm : 		NIIT/Coforge- Renu and Swati: 8099954772, Done successfully and selected, working on offer
+
+Hemanth & Ramesh for Dubai...: 7829382777, 9611555033
+Check with Anuj Paytm on Monday: 9910522012
+
+17 Jan 4:30 to 5:30pm 	Iris -- Zeenat : Done, sccessfully. scheduling 3rd/Managerial round.
+
+18 Jan 2-2.30pm 	HR discussion with FissionLab-- Done successfully
+18 Jan 3-3.30pm 	HR discussion with Quest -- Done successfully
+18 Jan 5:30-6:30pm 	interview wih AutoRabit -- Done, rejected............
+
+
+
+19 Jan 4:30-5pm 	with Verizon: Rohit - 8008597100, not successfull 
+19 Jan 6:30-7:30pm 	Interview with pyramidconsultatin, Babita: Done successfully 
+
+
+21 Jan 4-4:30pm 	Managerial round: Zeenat, Done successfully
+
+22 Jan 12:30-1pm 		Srikar ValueLab: Done successfully
+23 Jan 3pm				ITC: Sukonnya: Didn't happen
+
+
+25 Jan 11:30-12pm		Interview with pyramidconsultatin
+25 Jan 5-6pm 			paytm: Anuj, Didn't happen.
+
+
+----------------------------------------------------
+27 Jan 12-12.30pm 		Managerial with IRIS on MT, Zeenat
+----------------------------------------------------
+
+Value Labs: Done all the rounds successfully: Karthik - 8148468870
+EKA software: done successflly, waiting for 2nd round: Karthik Naidu - 6303353136
+Bajaj FinServices: Dinesh sigh - 8806367859
+QuessCor: 8763307810
+
+
+05 Feb: Interview at 3:30 - 4pm
+05 Feb: Interview at 4:30 - 5pm with ITC, Sukanya  
+
+Screen recorder: https://obsproject.com/
+
+UST Global: 7396783226
+High Radius: 9324446711/8297731110
+
+
+----------------------------------------------------
+07 Feb: Interview at 3:00 - 4pm Copart: Done successfully, waiting for Response Srini -- 9618079108
+07 Feb: Interview at 4:30pm - 5:30pm Infostretch Corp. - Sanskriti - 9075497475- Done successfully
+
+Transcend: 1st round has been done successfully
+----------------------------------------------------
+Tetrasoft: 1st round has been done successfull, waiting for 2nd round
+
+18 Feb Friday: Digitrail 1st round at 3 - 4pm : Done successfully, waiting for 2nd round
+
+19 Feb Saturday: Collabera 1st round at 1-1:30pm(Hemin-8401091947) Done successfully with Dhiraj, waiting for response
+
+20 Feb Sunday: Xebia 03:00 PM IST (Syed-9551292015): Not selected
+
+Copart: Both rounds have been done successfully, waiting for final response by Monday (Srinivas - 9618079108)
+
+SenacaGlobal: 1st round has been done successfully, need to complete assessment by Monday
+
+21 Feb Monday: Luxoft 1st round at 11am (Sushmitha - 7019629360), Done, waiting for response
+21 Feb Monday: AIS 2nd Round at 1:30 - 2.00pm(Alekya - 08553666955), Done successfully, working on offer
+21 Feb Monday: JPMorgan at 4:30 - 5.00pm(Vaishnavi Saha - ), both the rounds have been done successfully, waiting for HR
+
+22 Feb Tuesday at 2-23pm	: Collabera 2nd round, Done...waiting for response
+22 Feb Tuesday				: ValueLabs Pending with client discussion at 10pm Done successfully
+
+-------------------------------------------------
+23 Feb Wednesday: Transcend 2nd round scheduled on 23 Feb 12-01pm (Neha Sain - 7027830379): Done successfully
+23 Feb Wednesday: Conentrix 1st 4-5pm (Ritu: ), done, waiting for response
+23 Feb Wednesday: Copart 2nd 5.15-5.45pm (Srini) Done successfully, one more round yet to be.
+---------------------------------------------------
+
+24 Feb Thursday 12-1pm 	: IRIS Webinar
+24 Feb Thursday 2-5pm	: JPMC 2nd round
+
+
+02 March Thursday 11-12pm : Transcend Managerial Round 
+
+23 Feb Wednesday: Virtusa 1st 6-6:30pm (Priay Sharma) -- Not Done
+23 Feb Wednesday: Tetrasfot 2nd 1-2pm (Varshitha, Deepthi Bollu), re-scheduled to tomorrow at 11:30am, Done successfully
+22 Feb Tuesday at 5.30-6pm	: Collabera 2nd round, Done...waiting for response
+
+UST Global: 7396783226
+High Radius: 9324446711/8297731110
+
+
+SELECT TOP 1 salary FROM ( SELECT DISTINCT TOP N salary FROM #Employee ORDER BY salary DESC ) AS temp ORDER BY salary
+
+https://www.youtube.com/watch?v=ADHcBxEXvFA: Best for multithreading and concurr
+https://www.youtube.com/watch?v=cDPvEMEHihA: Good example of circuit breaker and above also
+
+===============================
+a ={10,20};
+b={1,5,10,30};
+c={30,40}
+//print max one from the arrays e.g: 40
+
+public method(int a[], int[], c[]){
+
+int m1 = a[0];
+
+for(int ai: a){
+	if(a[ai]>m1){
+		m1=a[ai];
+	}
+}
+}
+
+how to connect 2 DBs using JPA/Hibernate 
+
+=====================
+//Convert a 1D array to a 2D Numpy array
+int[] arr={1,2,3,4,5,6};
+group =2
+iteration=3;
+1,2,3
+4,5,6
+
+class Demo {
+  public static void main(String[] arg){
+  }
+  
+  private static void printArray(int r, int c){
+	int[] arr={1,2,3,4,5,6};
+	int size=arr.length;
+	int cout=0;
+	int most=arr[arr.length-1];
+	for(int i=0; i<3; i++){
+	  for(int j=count+i; j<3; j++){
+		if(a[j]<=most){
+		  System.out.print(arr[j]);
+			count++;
+		} else {
+		  count=0;
+		  continue;
+		}
+	  }
+	  System.out.println();
+	}
+  }
+}
+=====================
+String str ="abc"
+abc,acb,bac,bca,cab,cba
+====================
+
+9000673366
+
+
+Y5CO3Q57LY
+Salman@1050
+
+
+list.stream()
+
+.sorted(Comparator.comparing(Person::personName).thenComparing(Person::city)).collec(Collectors.toList())
+
+
+@Transactional(Pog, iso, roll)
+
+Open-chit
+
+Saga CRQS
+3 scale
+12 Factor, zipkin, 
+
+FN getNameByID must be called ONLY ONCE
+
+
+
+Title/Category 
+Your Functional/Subsidiary Title will be Software Engineer of Consumer & Community Banking. 
+Your Corporate Title will be Associate of Consumer & Community Banking.
+F726273
+mohdsuleman.siddiqui@chase.com
+mohamad.jahangir@chase.com
+
+
+Padmavathi.Gandham@broadridge.com
+rajita.singh@broadridge.com
+
+
+Myworkspace-ptp-2-in.jpmchase.com/vpn/myworkspace.html
+
+
+Advantage of Dynamo
+How to avoid posting duplicate message Kafka
+
+
+18004190065
+
+HDFC: 	5459648816097019
+		exp-02/25
+		bpin-339
+
+
+101180359652
+Limra@1050
+
+101649715570
+X7vm20dr
+Salman@1050
+
+
+Kafka Avro: https://www.youtube.com/results?search_query=spring+kafka+avro+producer+example&sp=mAEB	
+Kafka streams: https://www.youtube.com/playlist?list=PLa7VYi0yPIH35IrbJ7Y0U2YLrR9u4QO-s
+Debugging IntelliJ: https://www.youtube.com/results?search_query=debug+rest+rest+api+intellij		
+Chaitanya KT: https://docs.localstack.cloud/get-started/
+
+
+Kubernetes tutorial: https://www.youtube.com/playlist?list=PLhW3qG5bs-L8EU_Oocu6RkNPpYpaamtXX	
+
+
+Youtube learning videos:
+
+Cloud Tutorials:
+AWS EKS Handson: 	https://www.youtube.com/watch?v=DcnviAwmzM4
+Kubernetese:		https://www.youtube.com/watch?v=s_o8dwzRlu4
+Containers ECS..:	https://www.youtube.com/watch?v=AYAh6YDXuho
+
+
+
+Tricky Videos:
+Pen Tab: https://www.youtube.com/watch?v=W9SIq2-7H-A
+
+
+1. Robert Half 
+2. Hays UAE 
+3. Michael Page 
+4. Adecco Middle East 
+5. BAC Middle East 
+6. Charterhouse 
+7. NADIA Global 
+8. ManpowerGroup Middle East 
+9. Antal International 
+10. TASC Outsourcing 
+11. Reach Employment Services 
+
+	
+
